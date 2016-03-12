@@ -1,0 +1,70 @@
+
+/* Police perso */
+
+@font-face {font-family: "Titre resto";src: url('../font/Darleston.otf');}
+
+body {background: url("../image/background3.jpg") fixed center; color:white;font-family: Arial;}
+#bloc-page{width:90%;margin-left:5%; background-color: rgba(0,0,0,0.7); padding:0;border:solid;text-align:center;padding-bottom: 1em;}
+
+aside{display:inline-block;border-radius: 0.6em ;width:40%;text-align : center;padding : 1em ;vertical-align:top;border:1px solid black; 
+border-width : 2px ;background-color:whitesmoke;margin-left:3em;margin-right:2em;margin-top:2em;}
+
+div {padding:1em; margin:0;}
+
+/* MESSAGE DE REUSSITE */
+.valider {color: rgb(255, 165,   0);}
+
+/*HEADER ET MENU */
+#menu{list-style-type : none; background-color: rgba(255, 165,   0,0.5);/*#D6D1C6*/; text-align:center; margin:0; border-bottom:1px solid; height:5%; padding:2em;}
+#header{font-family:"Titre resto"; background-color:rgba(255, 165,   0,0.5); color:white; font-size:7em; padding:0.2em; margin:0; height:1em;}
+#header p{margin:0;}
+#menu li{display : inline;padding : 2em;height : 1em;}
+#menu li a{color:rgb(255, 165,   0);text-decoration: none;border:1px solid;padding:1em;background-color: white;/*rgba(0,0,0,0.4);*/border-radius:1em;height:1em;}
+
+
+#gauche{width:49%;height:43%;display:inline-block;margin:0;padding:0;}
+#droite{width:49%;;display:inline-block;margin:0;padding:0;}
+
+
+/* CARTE */
+h1,h2,h3,h4{color:rgba(255, 165,   0,0.9);}
+h2{font-style: italic;}
+
+
+#bvn{width:97,3%;border-bottom:1px solid;}
+
+fieldset{width:40%;text-align:center;display:inline-block;margin:1em;}
+#dbt{width:40%;border-radius:2em; box-shadow: 0px 0px 5px white;}
+#dbt2{width:60%;border-radius:2em; box-shadow: 0px 0px 5px white;}
+
+/* FOOTER */
+#footer{width:97,3%;border-top:1px solid;padding:1em;}
+#footer a{color: #D6D1C6;text-decoration: none;border:1px solid;padding:0.5em;background-color:#262322;border-radius:1em;margin-top:1em;}
+
+
+article{display:inline-block;width:45%;text-align : center;border:1px solid black;border-radius: 0.6em ;border-color : black ; border-width : 2px ;background-color: whitesmoke;margin-left:4em;margin-top:2em;}
+#aside2{display:inline-block;border-radius: 0.6em ;width:40%;text-align : center;padding : 1em ;vertical-align:top;border:0 ; 
+border-width : 0px ;background-color:rgba(0,0,0,0);margin-left:3em;margin-right:2em;margin-top:2em;}
+#article2{display:inline-block;width:40%;text-align : center;border:0 ;border-radius: 0em ;border-color : black ; 
+	border-width : 2px ;background-color: rgba(0,0,0,0);padding:1em;margin-left:4em;margin-top:2em;margin:1em;}
+/*Les tableaux*/
+table{text-align: center; margin: auto; border: none; padding: 0px;}
+
+/*Le header du tableau*/
+table th{background-color:rgba(255, 165,   0,0.5);; color: white;}
+/*Les autres cellules*/
+table td{background-color: white; color:rgb(255, 165,   0);}
+/*Les deux*/
+table td, table th{padding: 10px; border: none;}
+/*Les liens du tableau*/
+table a{color: #336699; text-decoration: none;}
+table a:hover{color: black; text-decoration: underline;}
+
+form{color: black;}
+/*FORMULAIRE CARTE */
+select{color: rgb(255, 165,   0);}
+button a{color: rgb(255, 165,   0);}
+
+/*FORMULAIRE ADMIN */
+.formAdmin{color: white;}
+
